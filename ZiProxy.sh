@@ -13,7 +13,9 @@ clear
 
 cd /etc/ziproxy/
 mv ziproxy.conf ziproxy.conf1
-wget https://raw.githubusercontent.com/Guilhermezkz/mytest/master/ziproxy.conf
+#wget https://raw.githubusercontent.com/Guilhermezkz/mytest/master/ziproxy.conf
+#Puerto: 8081
+wget https://raw.githubusercontent.com/shadow443/mytest/master/ziproxy.conf
 /etc/init.d/ziproxy restart
 clear
 
